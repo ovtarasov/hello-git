@@ -8,6 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
+set.seed(23)
 xs <- sample(1:100, 25)
 xs
 ```
